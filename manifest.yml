@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-home-intrusion-demo
+  host: node-red-home-intrusion-demo
+  disk_quota: 1024M
+  services:
+  - node-red-home-intrusion-demo-cloudantNoSQLDB
+  - Visual Recognition-morris-home-intrusion-demo
+  - Home-intrusion-demo-IoT-platform-vi
