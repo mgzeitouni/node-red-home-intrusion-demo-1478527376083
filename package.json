@@ -17,6 +17,7 @@
     "node-red-node-watson": "0.x",
     "node-red-nodes-cf-sqldb-dashdb": "0.x",
     "node-red-contrib-file-function":"1.1.2",
+    "node-red-contrib-file-upload":"0.0.5",
     "redis": "~0.10.1",
     "when": "~3.x"
   },
